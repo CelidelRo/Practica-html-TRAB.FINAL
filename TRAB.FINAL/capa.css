@@ -1,0 +1,49 @@
+* { 
+    box-sizing:border-box;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Unbounded', cursive;
+}
+
+header {
+    background-color: rgba(62, 221, 213, 0.938) ;
+    height: 50vh;
+    text-align: center;
+
+}
+
+img{
+    border-radius: 1cm;
+    height: 35vh; 
+
+   
+}
+
+
+section { 
+    background-color:  rgba(159, 233, 229, 0.938);
+    padding: 0.4cm;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: space-around;
+}
+section h2 { 
+    padding-right: 0.4cm;
+
+}
+
+section h3 { 
+    position: relative;
+    vertical-align:baseline ;
+}
+
+div#certificados {
+    background-color: rgb(198, 243, 243);
+    text-align: end;
+}
+
+footer {
+    text-align: center;
+    background-color:  rgba(182, 238, 235, 0.938);
+    padding: 0.4cm;
+}
